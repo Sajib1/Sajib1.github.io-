@@ -1,0 +1,535 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    border: none;
+}
+
+.clr {
+    clear: both;
+}
+
+.bor_0 {
+    border: none !important;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper_full {
+    width: 100%;
+}
+
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+
+/*Navigation bar css start*/
+
+.navbar {
+    background: #f6f9f9;
+}
+
+.logo {
+    float: left;
+}
+
+.logo img {
+    padding: 31px 0
+}
+
+.navbar ul {
+    float: right;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    font-size: 24 px;
+    font-weight: 500;
+    font-family: Raleway, sans-serif;
+    color: #484545;
+    padding: 40px 0 40px 40px;
+    text-transform: capitalize;
+}
+
+
+/*Navigation bar css end*/
+
+
+/*Banner part css start*/
+
+.banner_part {}
+
+/* slidder css part */
+
+.skdslider {
+    width: 100%;
+    min-height: 620px;
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.skdslider .slide-navs {
+    width: 100%;
+    bottom: 10px;
+    left: 0;
+    position: absolute;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.skdslider .slide-navs li {
+    display: inline-block;
+    background: white;
+    height: 15px;
+    width: 15px;
+    margin: 0px 6px;
+    cursor: pointer;
+    position: relative;
+    /*border-radius: 50%;*/
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.skdslider .slide-navs .current-slide {
+    background: red;
+}
+
+.skdslider .slides {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.skdslider .slides li {
+    display: none;
+    position: relative;
+}
+
+.skdslider .slides li img {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    position: absolute;
+    -o-object-fit: cover;
+    object-fit: cover;
+    display: block;
+}
+
+.skdslider .slide-desc {
+    left: 0;
+    padding-bottom: 20px;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.skdslider a.prev {
+    width: 35px;
+    height: 35px;
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    margin-top: -17px;
+    font-size: 20px;
+    color: #000;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.skdslider a.next {
+    width: 35px;
+    height: 35px;
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    margin-top: -17px;
+    font-size: 20px;
+    color: #000;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.skdslider .next:hover,
+.skdslider .prev:hover {
+    opacity: 0.7;
+    filter: alpha(opacity=80);
+}
+
+.skdslider .sk_iteam{
+    text-align: center;
+}
+.skdslider .sk_iteam h4 {
+	font-size: 120px;
+	font-weight: 700;
+	font-family: Lato, sans-serif;
+	color: #ffffff;
+	position: relative;
+	padding-bottom: 5px;
+    margin-top: 100px;
+}
+.skdslider .sk_iteam h4:before {
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	content: '';
+	background: #15a4fa;
+	height: 2px;
+	width: 600px;
+	transform: translate(-50%)
+}
+.skdslider .sk_iteam p {
+	font-size: 20px;
+	font-weight: 400;
+	font-family: Lato, sans-serif;
+	color: #ffffff;
+	padding: 40px 0 60px;
+}
+.skdslider .sk_iteam .button {
+	background: none;
+	border: 1px solid #15a4fa;
+	border-radius: 5px;
+	padding: 20px 0;
+	text-align: center;
+	width: 178px;
+	margin: 0 auto;
+}
+.skdslider .sk_iteam .button a {
+	font-size: 18px;
+	font-weight: 400;
+	font-family: Lato, sans-serif;
+	color: #ffffff;
+	padding: 40px 0 60px;
+}
+
+.skdslider .sk_iteam i {
+	font-size: 35px;
+	color: #ffffff;
+	padding-top: 50px
+}
+
+
+/*Banner part css end*/
+
+
+/*Simple & Pure design css start*/
+
+.design {
+    background: #f6f9f9;
+    padding: 80px 0 110px;
+    text-align: center;
+}
+
+.showcase h4,
+.design h4 {
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #2d3950;
+    padding-bottom: 25px;
+}
+
+.design p {
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #999999;
+    line-height: 32px;
+}
+
+.sk_iteam{
+    position: relative;
+}
+.slider_content{
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: '';
+    height: 100%;
+    width: 100%;
+}
+/*{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}*/
+/*Simple & Pure design css end*/
+
+
+/*Service part css start*/
+
+.service {
+    padding: 65px 0;
+}
+
+.icon_bg {
+    max-width: 100px;
+    height: 100px;
+    background: #5fc3ff;
+    position: relative;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.icon_bg .bg_left {
+    width: 50%;
+    height: 100px;
+    background: #48baff;
+    position: absolute;
+    left: 0;
+    top: o;
+    border-radius: 5px;
+}
+
+.icon_bg i {
+    font-size: 70px;
+    color: #ffffff;
+    position: absolute;
+    right: 0;
+    top: 15px;
+    transform: translate(50%);
+}
+
+.optimized {
+    text-align: center;
+    width: 33.33%;
+    float: left;
+}
+
+.optimized h4 {
+    font-family: Lato, sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: #2d3950;
+    padding-bottom: 20px;
+}
+
+.optimized .description {
+    position: relative;
+    width: 100%;
+}
+
+.optimized .description p {
+    font-family: Lato, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #999999;
+    line-height: 22px;
+    position: absolute;
+    width: 80%;
+    left: 10%
+}
+
+
+/*Service part css end*/
+
+
+/*showcase css start*/
+
+.showcase {
+    background: #f6f9f9;
+    padding: 80px 0 115px;
+    text-align: center;
+}
+
+.showcase p {
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #999999;
+    line-height: 32px;
+    padding-bottom: 80px;
+}
+
+.image {
+    display: inline-block;
+    width: 30%;
+    float: left;
+    position: relative;
+    margin: 0.8% 1%;
+}
+
+.image img {
+    width: 100%;
+}
+
+.overlay {
+    background: rgba(44, 172, 247, 0.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 98%;
+    transform: scale(0);
+    transition: all linear 0.3s;
+}
+
+.image:hover .overlay {
+    transform: scale(1);
+}
+
+.lock,
+.search {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #ffffff;
+    background: none;
+    border-radius: 5px;
+    margin: 107px 3px 0 3px;
+}
+
+.overlay i {
+    font-size: 15px;
+    color: #ffffff;
+    padding-top: 12px;
+}
+
+
+/*showcase css end*/
+
+
+/*Stay with us css start*/
+
+.stay {
+    background: url(../images/stay_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 75px 0 110px;
+    position: relative;
+    text-align: center;
+}
+
+.stay h4 {
+    font-family: Lato, sans-serif;
+    font-size: 41px;
+    font-weight: 400px;
+    color: #ffffff;
+    padding-bottom: 21px;
+}
+
+.stay p {
+    font-family: Lato, sans-serif;
+    font-size: 15px;
+    font-weight: 400px;
+    color: #999999;
+    padding-bottom: 51px;
+}
+
+input,
+textarea {
+    font-size: 15px;
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    color: #88898c;
+    text-transform: capitalize;
+    border: 1px solid #999999;
+    border-radius: 5px;
+    padding: 25px;
+    margin-bottom: 20px;
+    width: 50%;
+    background: none;
+    resize: none;
+}
+
+.subscribe {
+    width: 55%;
+    margin: 0 auto;
+}
+
+.subscribe input {
+    width: 17px;
+    height: 17px;
+    float: left;
+    margin-top: 15px;
+}
+
+.subscribe p {
+    font-family: Lato, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #ebebed;
+    display: inline-block;
+    float: left;
+    padding: 13px 0 0 15px;
+}
+
+.stay button {
+    font-family: Lato, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    padding: 16px 50px;
+    background: none;
+    border: 1px solid #15a4fa;
+    border-radius: 5px;
+    display: inline-block;
+    float: right;
+    cursor: pointer;
+}
+
+
+/*Stay with us css end*/
+
+
+/*Footer css start*/
+
+.footer {
+    background: #f6f9f9;
+}
+
+.footer p {
+    display: inline-block;
+    float: left;
+    font-size: 15px;
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    color: #999999;
+    padding: 30px 0;
+}
+
+.social_icon {
+    float: right;
+}
+
+.footer i {
+    font-size: 40px;
+    color: #15a4fa;
+    margin: 18px 1px;
+}
+
+
+/*Footer css end*/
